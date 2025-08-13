@@ -1,5 +1,7 @@
+#exercise 1
 print("hallo python")
 
+#exercise 2
 name = input("enter deine name: ")
 age = int(input("enter deine age: "))
 stadt = input("enter your city: ")
@@ -8,9 +10,11 @@ print(type(name))
 print(type(age))
 print(type(stadt))
 
+#exercise 3
 number = 34
 print(type(number))
 
+#exercise 4
 print(f"name is {name}, \n age is {age}, \n{stadt}")
 
 #output
