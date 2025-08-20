@@ -12,7 +12,7 @@ num2 = int(input("enter a number: "))
 num1 = even_odd(num2)
 print(num1)
 
-#exercise 3 (even this i got till for statement but after that i don't what to do)
+#exercise 3 (even this i got till for statement but after that i don't know what to do)
 Vowels = ['a','e','i','o','u']
 def vowels(word):
     count = 0
@@ -72,4 +72,5 @@ def calculator(a,b):
 
 num2 = float(input("enter a number: "))
 num1 = float(input("enter a number: "))
+
 print(calculator(num1,num2))
