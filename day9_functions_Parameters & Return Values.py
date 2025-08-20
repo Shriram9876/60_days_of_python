@@ -13,7 +13,7 @@ num1 = int(input("enter a number: "))
 num2 = int(input("enter a number: "))
 print(sum(num1,num2))
 
-#exercise 3 here with for statement i was trying to limit the numbers to sum up emphasis on "trying" it didn't work
+#exercise 3 here with "for statement" i was trying to limit the numbers to sum up emphasis on "trying" it didn't work
 """def max_min(*num):
     total = 0
     for i in range(5):
@@ -25,7 +25,7 @@ num2 = []
 num1 = input("enter a list of number: ")
 num2 += num1
 print(int(max_min(num2)))"""
-#this was wrong as i was reading the 2 different questions together like for def it was one question and second part was different question so that's why i didn't work
+#this was wrong as i was reading 2 different questions together like for first part of the code it was one question and second part was different question so that's why i didn't work
 """def max_min(*num):
     total = 0
     for n in num:
@@ -33,7 +33,7 @@ print(int(max_min(num2)))"""
     return max(total), min(total)
 
 print(max_min(2,4,5,6,7))"""
-#this was the answer, the question was to find out maximum and minimum in given set of numbers
+#this was the answer, the question was to find out maximum and minimum in given set of numbers ( i did that same mistake for codes above of exercise 3, reading the question wrongly)
 def max_min(num):
     return max(num), min(num)
 
@@ -69,5 +69,6 @@ print(GCD(num5,num6))
 
 def LCM(a,b):
     return a*b // GCD(num5,num6)
+
 
 print(f"LCM of two numbers is {LCM(num5,num6)}")
